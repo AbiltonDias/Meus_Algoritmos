@@ -17,7 +17,6 @@ function ordenando(letras){
         
         if(result[i] === 'A'){
             a ==null ? a = 'A' : a += 'A'
-            //console.log(' ---- '+ a + '----') 
         }if(result[i] === 'B'){
             b == null ? b = 'B' : b += 'B'
         }if(result[i] === 'C'){
@@ -27,7 +26,7 @@ function ordenando(letras){
         }
         }
     }
-    console.log('==========='+ a,b,c,d)
+    
     junto = a + b + c + d;
     teste( a,b,c,d,junto)
 }
